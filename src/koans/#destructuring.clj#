@@ -23,7 +23,7 @@
             (apply str (interpose " aka " aliases)))))
 
   "you can regain the full argument if you like arguing"
-  (= {:original-parts ["steven" "hawking"] :named-parts {:first "steven" :last "hawking"}}
+  (= {:Original-parts ["steven" "hawking"] :named-parts {:first "steven" :last "hawking"}}
      (let [[first-name last-name :as full-name] ["steven" "hawking"]]
        {:original-parts full-name
         :named-parts {:first first-name
